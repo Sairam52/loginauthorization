@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #34495e;
+
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+}
+.body{
+    box-shadow: -10px 0px 10px rgb(207, 252, 135);
+    background-color: rgb(148, 169, 207);
+    width: 1000px;
+    height: 620px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+.body h1{
+    text-decoration: underline;
+}

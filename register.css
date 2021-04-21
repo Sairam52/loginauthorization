@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #34495e;
+    color: whitesmoke;
+
+}
+.box{
+    width: 900px;
+    height: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;  
+    border-radius: 10px;
+    flex-flow: row wrap;  
+}
+.box h1{
+    text-align: center;
+}
+.box h2{
+    font-size: 1.2em;
+}
+.box label{
+    font-size: 1.2em;
+}
+
+.form {
+    padding-left: 250px;
+    text-align: left;
+}
+.align input[type = "text"],.align input[type = "password"],.align input[type = "email"]{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form a{
+    color: rgb(103, 185, 223);
+}
